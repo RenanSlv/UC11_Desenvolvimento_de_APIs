@@ -2128,11 +2128,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Renan\\Desktop\\UC11\\Chapter\\Chapter\\Chapter.csproj",
+      "projectUniqueName": "C:\\Users\\Renan\\Desktop\\UC11\\EncontroRemoto 3\\Chapter\\Chapter\\Chapter.csproj",
       "projectName": "Chapter",
-      "projectPath": "C:\\Users\\Renan\\Desktop\\UC11\\Chapter\\Chapter\\Chapter.csproj",
+      "projectPath": "C:\\Users\\Renan\\Desktop\\UC11\\EncontroRemoto 3\\Chapter\\Chapter\\Chapter.csproj",
       "packagesPath": "C:\\Users\\Renan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Renan\\Desktop\\UC11\\Chapter\\Chapter\\obj\\",
+      "outputPath": "C:\\Users\\Renan\\Desktop\\UC11\\EncontroRemoto 3\\Chapter\\Chapter\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Renan\\AppData\\Roaming\\NuGet\\NuGet.Config",

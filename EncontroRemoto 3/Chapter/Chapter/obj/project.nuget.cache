@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8kibpBouPypZ7Se+44hkEn/myLQB0kWlk33dYsCjVrRl0sYGKyV+fuFAEzJHMlULke8CqH1hfhBgZB+lm58nKQ==",
+  "dgSpecHash": "TPwzQP+9bAqVuCU/qM6uHXfnAPm6evSpm08UgbBf1Ac53LXGg01acXsNK/NN+tTIcPHqrBiHBTb8x3xTMoVq/A==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Renan\\Desktop\\UC11\\Chapter\\Chapter\\Chapter.csproj",
+  "projectFilePath": "C:\\Users\\Renan\\Desktop\\UC11\\EncontroRemoto 3\\Chapter\\Chapter\\Chapter.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Renan\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\Renan\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
