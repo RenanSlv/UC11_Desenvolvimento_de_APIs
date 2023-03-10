@@ -16,6 +16,11 @@ namespace Chapter.Controllers
             _iUsuarioRepository = iUsuarioRepository;
         }
 
+        /// <summary>
+        /// Método que controla o acesso a listagem de usuários
+        /// </summary>
+        /// <returns>Lista dos usuários cadastrados</returns>
+        /// <exception cref="Exception">Erro ao listar usuários !</exception>
         [HttpGet]
         public IActionResult Listar()
         {
@@ -29,6 +34,12 @@ namespace Chapter.Controllers
             }
 
         }
+        /// <summary>
+        /// Método que controla o acesso a buscar um usuário por id
+        /// </summary>
+        /// <param name="id">id do usuário a ser buscado</param>
+        /// <returns>Status code Ok e usuário buscado</returns>
+        /// <exception cref="Exception">Erro ao buscar usuário por Id !</exception>
         [HttpGet("{id}")]
         public IActionResult BuscarPorId(int id)
         {
@@ -47,6 +58,12 @@ namespace Chapter.Controllers
                 throw new Exception(e.Message);
             }
         }
+        /// <summary>
+        /// Método que controla o acesso para cadastro de um usuário
+        /// </summary>
+        /// <param name="usuario">Usuário a ser cadastrado</param>
+        /// <returns>Status code created</returns>
+        /// <exception cref="Exception">Erro ao cadastrar usuário !</exception>
         [HttpPost]
         public IActionResult Cadastrar(Usuario usuario)
         {
@@ -60,6 +77,13 @@ namespace Chapter.Controllers
                 throw new Exception(e.Message);
             }
         }
+        /// <summary>
+        /// Método que controla o acesso a atualização de um usuário
+        /// </summary>
+        /// <param name="id">Id do usuário a ser atualizado</param>
+        /// <param name="usuario"> Usuário com os novos dados</param>
+        /// <returns>Status code ok e mensagem de sucesso</returns>
+        /// <exception cref="Exception">Erro na edição do usuário !</exception>
         [HttpPut("{id}")]
         public IActionResult Atualizar(int id, Usuario usuario)
         {
@@ -73,6 +97,12 @@ namespace Chapter.Controllers
                 throw new Exception(e.Message);
             } 
         }
+        /// <summary>
+        /// Método que controla o acesso para excluir um usuário
+        /// </summary>
+        /// <param name="id">Id do usuário a ser excluído</param>
+        /// <returns>Status code ok e mensagem de sucesso</returns>
+        /// <exception cref="Exception">Erro ao deletar usuário !</exception>
         [HttpDelete("{id}")]
         public IActionResult Deletar(int id)
         {

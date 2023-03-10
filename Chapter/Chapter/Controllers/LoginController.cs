@@ -22,6 +22,11 @@ namespace Chapter.Controllers
             _iUsuarioRepository = iUsuarioRepository;
         }
 
+        /// <summary>
+        /// Método que controla o acesso para login
+        /// </summary>
+        /// <param name="login">Dados dos usuario : email e senha</param>
+        /// <returns>Token de acesso</returns>
         [HttpPost]
         public IActionResult Login(LoginViewModel login) 
         {

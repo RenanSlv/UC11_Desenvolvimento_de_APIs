@@ -64,3 +64,4 @@ C:\Users\Renan\Desktop\UC11\Chapter\Chapter\obj\Debug\net6.0\Chapter.pdb
 C:\Users\Renan\Desktop\UC11\Chapter\Chapter\obj\Debug\net6.0\Chapter.genruntimeconfig.cache
 C:\Users\Renan\Desktop\UC11\Chapter\Chapter\obj\Debug\net6.0\ref\Chapter.dll
 C:\Users\Renan\Desktop\UC11\Chapter\Chapter\bin\Debug\net6.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+C:\Users\Renan\Desktop\UC11\Chapter\Chapter\bin\Debug\net6.0\Chapter.xml

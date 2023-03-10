@@ -1,0 +1,95 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Chapter</name>
+    </assembly>
+    <members>
+        <member name="M:Chapter.Controllers.LivroController.Listar">
+            <summary>
+            Método que controla acesso para listagem de livros
+            </summary>
+            <returns>Status code ok e a lista de livros</returns>
+            <exception cref="T:System.Exception">Erro acesso no acesso a listagem de livros !</exception>
+        </member>
+        <member name="M:Chapter.Controllers.LivroController.BuscarPorId(System.Int32)">
+            <summary>
+            Método que controla o acesso para busca de um livro por Id
+            </summary>
+            <param name="id">id do livro a ser buscado</param>
+            <returns>Status code Ok e livro buscado</returns>
+            <exception cref="T:System.Exception">Erro na busca do livro por Id !</exception>
+        </member>
+        <member name="M:Chapter.Controllers.LivroController.Cadastrar(Chapter.Models.Livro)">
+            <summary>
+            Método que controla o acesso para cadastro de livros
+            </summary>
+            <param name="livro">Livro a ser cadastrado</param>
+            <returns>Status code Ok</returns>
+            <exception cref="T:System.Exception">Erro no cadastro do livro !</exception>
+        </member>
+        <member name="M:Chapter.Controllers.LivroController.Atualizar(System.Int32,Chapter.Models.Livro)">
+            <summary>
+            Método que controla o acesso para edição de um livro
+            </summary>
+            <param name="id">Id do livro a ser atualizado</param>
+            <param name="livro">Livro com os novos dados</param>
+            <returns>Status code 204</returns>
+            <exception cref="T:System.Exception">Erro na edição do livro !</exception>
+        </member>
+        <member name="M:Chapter.Controllers.LivroController.Deletar(System.Int32)">
+            <summary>
+            Método que controla o acesso para exclusão de um livro
+            </summary>
+            <param name="id">Id do livro a ser excluído</param>
+            <returns>Status code 204</returns>
+            <exception cref="T:System.Exception">Erro da exclusão do livro</exception>
+        </member>
+        <member name="M:Chapter.Controllers.LoginController.Login(Chapter.ViewModels.LoginViewModel)">
+            <summary>
+            Método que controla o acesso para login
+            </summary>
+            <param name="login">Dados dos usuario : email e senha</param>
+            <returns>Token de acesso</returns>
+        </member>
+        <member name="M:Chapter.Controllers.UsuarioController.Listar">
+            <summary>
+            Método que controla o acesso a listagem de usuários
+            </summary>
+            <returns>Lista dos usuários cadastrados</returns>
+            <exception cref="T:System.Exception">Erro ao listar usuários !</exception>
+        </member>
+        <member name="M:Chapter.Controllers.UsuarioController.BuscarPorId(System.Int32)">
+            <summary>
+            Método que controla o acesso a buscar um usuário por id
+            </summary>
+            <param name="id">id do usuário a ser buscado</param>
+            <returns>Status code Ok e usuário buscado</returns>
+            <exception cref="T:System.Exception">Erro ao buscar usuário por Id !</exception>
+        </member>
+        <member name="M:Chapter.Controllers.UsuarioController.Cadastrar(Chapter.Models.Usuario)">
+            <summary>
+            Método que controla o acesso para cadastro de um usuário
+            </summary>
+            <param name="usuario">Usuário a ser cadastrado</param>
+            <returns>Status code created</returns>
+            <exception cref="T:System.Exception">Erro ao cadastrar usuário !</exception>
+        </member>
+        <member name="M:Chapter.Controllers.UsuarioController.Atualizar(System.Int32,Chapter.Models.Usuario)">
+            <summary>
+            Método que controla o acesso a atualização de um usuário
+            </summary>
+            <param name="id">Id do usuário a ser atualizado</param>
+            <param name="usuario"> Usuário com os novos dados</param>
+            <returns>Status code ok e mensagem de sucesso</returns>
+            <exception cref="T:System.Exception">Erro na edição do usuário !</exception>
+        </member>
+        <member name="M:Chapter.Controllers.UsuarioController.Deletar(System.Int32)">
+            <summary>
+            Método que controla o acesso para excluir um usuário
+            </summary>
+            <param name="id">Id do usuário a ser excluído</param>
+            <returns>Status code ok e mensagem de sucesso</returns>
+            <exception cref="T:System.Exception">Erro ao deletar usuário !</exception>
+        </member>
+    </members>
+</doc>
